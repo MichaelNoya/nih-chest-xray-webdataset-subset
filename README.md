@@ -47,12 +47,12 @@ repository.
 
 Training the model:
 ```shell
-%run train_model.py -b 16 -w 2 -e 16 -l 0.001 -p 3 -a
+$ python train_model.py -b 16 -w 2 -e 16 -l 0.001 -p 3 -a
 ```
 
 Validation on the test set:
 ```shell
-%run validate_model.py -b 32 -w 2 -c
+$ python validate_model.py -b 32 -w 2 -c
 ```
 
 ## Reference <a name="reference"></a>
